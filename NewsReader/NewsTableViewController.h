@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NewsTableViewController.h
 //  NewsReader
 //
 //  Created by Marian PAUL on 23/03/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface NewsTableViewController : UITableViewController
+@property (strong, nonatomic) NSMutableArray *arrayOfNews;
 @end
